@@ -8,3 +8,9 @@ Here is the roadmap:
    - Bottom Sheet using getx
    - Theme mode [light and dark] using getx
    - navigators using getx
+   - routs
+   - getx heights and width
+   - getx localization
+
+2) GetX Statemanagement:
+   - 
