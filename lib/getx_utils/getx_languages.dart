@@ -2,11 +2,8 @@ import 'package:get/get_navigation/src/root/internacionalization.dart';
 
 class Languages extends Translations{
   @override
-  Map<String, Map<String, String>> get keys => {
+  // TODO: implement keys
+  Map<String, Map<String, String>> get keys => throw UnimplementedError();
 
-    'en_US':
-
-
-  };
 
 }

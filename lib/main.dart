@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_statemanagement/getx_utils/getx_dialogalart.dart';
-import 'package:getx_statemanagement/getx_utils/getx_home.dart';
 
-import 'getx_utils/getx_navigators.dart';
-import 'getx_utils/getx_screensize.dart';
+import 'getx_statemanagement/getx_colorslider/colorslider_label.dart';
+import 'getx_statemanagement/getx_colorslider/home_colorslider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +16,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: GetXScreenSize(),
+      home: const HomeColorSliderScreen(),
+
       // getPages: [
       //   GetPage(name: '/', page: () => GetxHomeScreen()),
       //   GetPage(name: '/dialogalert', page: () => GetxDialogAlart()),
