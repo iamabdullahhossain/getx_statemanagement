@@ -13,4 +13,9 @@ Here is the roadmap:
    - getx localization
 
 2) GetX Statemanagement:
-   - 
+   - getx_colorslider
+   - getx_counterapp
+   - getx_imagepicker
+   - getx_login
+   - getx_markfavouriteapp
+   - getx_switch
